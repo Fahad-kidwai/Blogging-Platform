@@ -19,7 +19,7 @@ function Postcard({ $id, title, featuredImage }) {
           />
         </div>
         <h2 className="text-xl font-bold">
-          {title.length > 30 ? title.substring(0, 29) + "..." : title}
+          {title.length > 22 ? title.substring(0, 20) + "..." : title}
         </h2>
       </div>
     </Link>
